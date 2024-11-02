@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+}
+
+header {
+    background: linear-gradient(135deg, #3f51b5, #2196f3);
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+.about-institution {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    transition: transform 0.3s;
+}
+
+.about-institution:hover {
+    transform: translateY(-5px);
+}
+
+.mission-vision {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.card {
+    background: #e3f2fd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    flex: 1;
+    margin: 0 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    color: #1976d2;
+    margin-bottom: 1rem;
+}
+
+.values-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding: 1rem 0;
+}
+
+.images-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.hover-image {
+    width: 45%;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hover-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #f1f1f1;
+}
+
+footer p {
+    margin: 0;
+    color: #666;
+}
+
+.back-button {
+    display: inline-block;
+    background-color: #3f51b5; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interior */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 1rem; /* Tamaño de fuente */
+    transition: background-color 0.3s; /* Transición suave */
+    margin-top: 10px; /* Espaciado superior */
+}
+
+.back-button:hover {
+    background-color: #2196f3; /* Color de fondo al pasar el mouse */
+}
